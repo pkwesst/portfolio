@@ -3,7 +3,7 @@ import AboutMeItem from "./AboutmeItem";
 
 const AboutMe = () => {
   return (
-    <div id="3">
+    <div>
       <AboutMeStyle>
         <AboutMeItem></AboutMeItem>
       </AboutMeStyle>
@@ -12,7 +12,7 @@ const AboutMe = () => {
 };
 
 const AboutMeStyle = styled.div`
-  padding: 230px;
+  padding: 150px 200px;
   background-color: #f9f8f8;
 `;
 

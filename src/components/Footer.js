@@ -10,10 +10,18 @@ const Footer = () => {
         <a href='mailto:"pkwesst@gmail.com'>
           <MdOutlineMail />
         </a>
-        <a href="https://pkwesst.github.io" target="_blank">
+        <a
+          href="https://pkwesst.github.io"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaBloggerB />
         </a>
-        <a href="https://github.com/pkwesst" target="_blank">
+        <a
+          href="https://github.com/pkwesst"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <SiGithub />
         </a>
       </FooterStyle>
@@ -33,7 +41,7 @@ const FooterStyle = styled.footer`
   font-size: 23px;
 
   a {
-    padding: 20px;
+    padding: 30px;
     color: #f9f8f8;
     text-decoration: none;
     :hover {

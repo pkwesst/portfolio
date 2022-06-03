@@ -8,7 +8,7 @@ const Header = () => {
         <span>Project</span>
       </Link>
       <Link to="2" spy={true} smooth={true}>
-        <span className="developer">Front-end Engineer</span>
+        <span className="developer">Frontend Engineer</span>
       </Link>
       <Link to="3" spy={true} smooth={true}>
         <span>About</span>
@@ -21,11 +21,8 @@ const HeaderStyle = styled.header`
   position: fixed;
   top: 0;
   width: 100%;
-  // position: sticky;
-  // top: 0;
   background-color: #000;
   height: 80px;
-  // backdrop-filter: blur(30px);
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 0;
@@ -33,9 +30,10 @@ const HeaderStyle = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
 
   span {
-    padding: 20px;
+    padding: 30px;
 
     :hover {
       cursor: pointer;

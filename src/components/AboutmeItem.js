@@ -17,7 +17,8 @@ import {
 import { BsFillBootstrapFill } from "react-icons/bs";
 const AboutMeItem = () => {
   return (
-    <AboutMeLayoutStyle>
+    <AboutMeLayoutStyle id="3">
+      <h2>Experience</h2>
       <div className="container">
         <div className="item">
           <div className="icon-js">
