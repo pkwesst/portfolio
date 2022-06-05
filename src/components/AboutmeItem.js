@@ -76,12 +76,13 @@ const AboutMeLayoutStyle = styled.div`
   h2 {
     font-weight: 700;
     padding-bottom: 60px;
-    @media screen and (max-width: 420px) {
+    @media screen and (max-width: 768px) {
       margin: 20px;
       font-size: 20px;
       margin: 0;
       padding-top: 100px;
       padding-left: 20px;
+      padding-bottom: 30px;
     }
   }
 
@@ -94,7 +95,7 @@ const AboutMeLayoutStyle = styled.div`
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
     font-size: 50px;
 
-    @media screen and (max-width: 420px) {
+    @media screen and (max-width: 768px) {
       width: 60px;
       height: 50px;
     }
@@ -107,7 +108,7 @@ const AboutMeLayoutStyle = styled.div`
     place-items: center;
     justify-content: center;
 
-    @media screen and (max-width: 420px) {
+    @media screen and (max-width: 768px) {
       grid-template-columns: repeat(2, 1fr);
       justify-content: center;
     }

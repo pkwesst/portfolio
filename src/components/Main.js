@@ -34,7 +34,7 @@ const MainStyle = styled.div`
       font-size: 120px;
     }
 
-    @media screen and (max-width: 420px) {
+    @media screen and (max-width: 768px) {
       font-size: 50px;
     }
   }
@@ -51,9 +51,9 @@ const MainStyle = styled.div`
       left: 3em;
     }
 
-    @media screen and (max-width: 420px) {
-      top: 4em;
-      left: 2em;
+    @media screen and (max-width: 768px) {
+      top: 5.5em;
+      left: 2.5em;
     }
   }
 
@@ -69,9 +69,9 @@ const MainStyle = styled.div`
       left: 3em;
     }
 
-    @media screen and (max-width: 420px) {
-      top: 6em;
-      left: 2em;
+    @media screen and (max-width: 768px) {
+      top: 7em;
+      left: 2.5em;
     }
   }
 `;

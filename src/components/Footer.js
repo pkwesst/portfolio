@@ -40,13 +40,13 @@ const FooterStyle = styled.footer`
   height: 90px;
   font-size: 23px;
 
-  @media screen and (max-width: 420px) {
+  @media screen and (max-width: 768px) {
     font-size: 16px;
-    height: 70px;
+    height: 76px;
   }
 
   a {
-    padding: 30px;
+    padding: 20px 30px;
     color: #f9f8f8;
     text-decoration: none;
     :hover {

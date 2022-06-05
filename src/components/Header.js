@@ -32,9 +32,9 @@ const HeaderStyle = styled.header`
   align-items: center;
   z-index: 1;
 
-  @media screen and (max-width: 420px) {
+  @media screen and (max-width: 768px) {
     font-size: 15px;
-    height: 70px;
+    height: 60px;
   }
 
   span {
@@ -42,6 +42,9 @@ const HeaderStyle = styled.header`
 
     :hover {
       cursor: pointer;
+    }
+    @media screen and (max-width: 768px) {
+      padding: 10px;
     }
   }
 `;

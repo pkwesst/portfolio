@@ -210,8 +210,10 @@ const ProjectStyle = styled.div`
     font-weight: 700;
     margin-left: 200px;
     margin-bottom: 40px;
-    @media screen and (max-width: 420px) {
+    @media screen and (max-width: 768px) {
       margin: 20px;
+      margin-bottom: 30px;
+
       font-size: 20px;
     }
   }
@@ -276,10 +278,11 @@ const ProjectStyle = styled.div`
       background-color: #000;
     }
 
-    @media screen and (max-width: 420px) {
+    @media screen and (max-width: 768px) {
       font-size: 10px;
-      padding: 0;
-      line-height: 1rem;
+      padding: 3px;
+      line-height: 1.2em;
+      word-spacing: 0;
     }
   }
 
@@ -304,10 +307,12 @@ const ProjectStyle = styled.div`
       background-color: rgba(0, 0, 0, 0.5);
     }
 
-    @media screen and (max-width: 420px) {
+    @media screen and (max-width: 768px) {
       font-size: 10px;
-      padding: 0;
-      line-height: 1rem;
+      padding: 3px;
+      line-height: 1.2em;
+      word-spacing: 0rem;
+      line-height: 1.2em;
       margin-left: 1em;
     }
   }
@@ -328,7 +333,7 @@ const ProjectStyle = styled.div`
       width: 45em;
     }
 
-    @media screen and (max-width: 420px) {
+    @media screen and (max-width: 768px) {
       width: 70%;
     }
   }
