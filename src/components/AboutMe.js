@@ -12,7 +12,10 @@ const AboutMe = () => {
 };
 
 const AboutMeStyle = styled.div`
-  padding: 150px 200px;
+  padding-top: 200px;
+  padding-bottom: 210px;
+  padding-left: 200px;
+  padding-right: 200px;
   background-color: #f9f8f8;
 `;
 

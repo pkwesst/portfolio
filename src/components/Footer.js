@@ -37,7 +37,7 @@ const FooterStyle = styled.footer`
   justify-content: space-between;
   align-items: center;
   background-color: #000;
-  height: 80px;
+  height: 90px;
   font-size: 23px;
 
   a {

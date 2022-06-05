@@ -71,6 +71,11 @@ const AboutMeLayoutStyle = styled.div`
     "Malgun Gothic", sans-serif;
   line-height: 1.8;
 
+  h2 {
+    font-weight: 700;
+    padding-bottom: 60px;
+  }
+
   .item {
     width: 120px;
     height: 70px;
@@ -86,6 +91,7 @@ const AboutMeLayoutStyle = styled.div`
     grid-template-columns: repeat(4, 1fr);
     gap: 50px 20px;
     place-items: center;
+    justify-content: center;
   }
 
   .aboutme-wrap {

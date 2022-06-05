@@ -22,8 +22,8 @@ const HeaderStyle = styled.header`
   top: 0;
   width: 100%;
   background-color: #000;
-  height: 80px;
-  font-size: 16px;
+  height: 90px;
+  font-size: 17px;
   font-weight: 600;
   letter-spacing: 0;
   color: #f9f8f8;

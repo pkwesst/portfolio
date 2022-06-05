@@ -29,15 +29,23 @@ const MainStyle = styled.div`
     font-size: 170px;
     letter-spacing: -5px;
     display: flex;
+
+    @media screen and (max-width: 1200px) {
+      font-size: 120px;
+    }
   }
 
   .last-name {
     position: absolute;
     top: 23%;
-    left: 25%;
+    left: 32%;
     mix-blend-mode: difference;
     color: #fff;
     z-index: 2;
+    @media screen and (max-width: 1200px) {
+      top: 3em;
+      left: 3em;
+    }
   }
 
   .first-name {
@@ -45,8 +53,12 @@ const MainStyle = styled.div`
     mix-blend-mode: difference;
     color: #fff;
     top: 47%;
-    left: 25%;
+    left: 32%;
     z-index: 2;
+    @media screen and (max-width: 1200px) {
+      top: 4.5em;
+      left: 3em;
+    }
   }
 `;
 

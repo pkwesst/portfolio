@@ -7,7 +7,7 @@ const Project = () => {
         <h2>Project</h2>
         <div className="project-section-1">
           <a
-            href="https://github.com/pkwesst/review-rating"
+            href="https://pkwesst.github.io/review-rating/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -20,38 +20,58 @@ const Project = () => {
           <div className="project-des">
             <h3>Review Rating App</h3>
             <p className="app-des">
-              아이템의 평점을 클릭하고 후기를 기록하여 관리하는 앱
-            </p>
-            <p>• API 호출 : FAKE REST API 통신으로 기존 예시 후기 출력</p>
-            <p>• 평점, 후기 등록 : 평점 숫자를 클릭, 후기 등록</p>
-            <p>
-              • ContextAPI : state, dispatch를 컴포넌트에 전역적으로 공급, 사용
+              후기 아이템의 평점(1-10점)을 클릭하고 후기 내용을 기록하여
+              관리하는 앱
             </p>
             <p>
-              • 평점, 후기 수정 : +/- 버튼으로 평점 수정, 수정 버튼 클릭 후 내용
-              수정
+              • API 호출 : FAKE REST API 통신으로 기존 예시 후기, 평점(random),
+              총 개수 출력
             </p>
             <p>
-              • 평점, 후기 삭제 : 해당 후기 id를 제외한 요소를 모아 새로운
-              배열로 반환
+              • 평점, 후기 등록 : 평점 숫자, 후기 아이템, 후기 내용 작성 후 등록
             </p>
             <p>
-              • 데이터 저장 : localstorage으로 review의 평점, 후기 내용 관리
+              • Context API : state, dispatch를 통해 함수를 컴포넌트에
+              전역적으로 공급, 사용
             </p>
-
-            <a
-              className="btn"
-              href="https://github.com/pkwesst/review-rating"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              view more a project
-            </a>
+            <p>
+              • 평점, 후기 수정 : +/- 버튼으로 평점만 따로 수정 가능, 수정 버튼
+              클릭 시 내용 수정
+            </p>
+            <p>
+              • 평점, 후기 삭제 : 삭제 시 해당 후기 id를 제외한 요소를 모아
+              새로운 배열로 반환
+            </p>
+            <p>
+              • 평점, 후기 저장 : LocalStorage를 통해 후기의 평점과 내용을 저장,
+              삭제 관리
+            </p>
+            <p className="tool">
+              • React, Context API, Axios, API, Styled-Component, LocalStorage
+            </p>
+            <div className="btn-wrap">
+              <a
+                className="btn-project"
+                href="https://pkwesst.github.io/review-rating/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                view more project
+              </a>
+              <a
+                className="btn-code"
+                href="https://github.com/pkwesst/review-rating"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                view a source code
+              </a>
+            </div>
           </div>
         </div>
         <div className="project-section-2">
           <a
-            href="https://github.com/pkwesst/movie-app"
+            href="https://pkwesst.github.io/movie-app/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -64,34 +84,50 @@ const Project = () => {
           <div className="project-des">
             <h3>Movie App</h3>
             <p className="app-des">
-              영화에 대한 정보(평점, 개봉일, 개요) 제공 및 영화를 검색할 수 있는
-              앱
+              영화에 대한 정보(인기 영화, 평점, 개봉일, 개요) 제공 및 영화를
+              검색 기능이 있는 앱
             </p>
             <p>
-              • 인기순 영화 : Axios를 통해 API 통신으로 메인 화면에 영화 목록
-              출력
+              • 인기순 영화 : Axios를 통해 TMDb API 통신으로 메인 화면에 영화
+              목록 출력
             </p>
-            <p>• 영화 목록 : 커스텀 Hooks 사용해 반복 로직 재사용</p>
+            <p>• 영화 목록 : 커스텀 Hooks 생성 후 반복되는 로직 대신 재사용</p>
             <p>
-              • 영화 정보 제공 : 영화 컨텐츠에 마우스를 hover하면 영화 정보 출력
+              • 영화 정보 : 영화 컨텐츠에 마우스를 hover하면 영화 overview,
+              개봉일 정보 제공
             </p>
             <p>
-              • 영화 검색 : useState로 검색어를 관리하고 Axios params 통해 검색
+              • 영화 검색 : useState로 검색어를 관리, Axios로 get 요청 시 params
+              통해 검색
             </p>
             <p>• Styled Components : GlobalStyle로 컴포넌트 재사용</p>
-            <a
-              className="btn"
-              href="https://github.com/pkwesst/movie-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              view more a project
-            </a>
+            <p className="tool">
+              • React, Axios, TMDb API, Context API, Styled-Component, Git,
+              Github
+            </p>
+            <div className="btn-wrap">
+              <a
+                className="btn-project"
+                href="https://pkwesst.github.io/movie-app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                view more project
+              </a>
+              <a
+                className="btn-code"
+                href="https://github.com/pkwesst/movie-app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                view a source code
+              </a>
+            </div>
           </div>
         </div>
         <div className="project-section-3">
           <a
-            href="https://github.com/pkwesst/todo-app"
+            href="https://pkwesst.github.io/todo-app/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -103,27 +139,54 @@ const Project = () => {
           </a>
           <div className="project-des">
             <h3>TodoList App</h3>
-            <p className="app-des">할 일을 기록, 관리하여 사용할 수 있는 앱</p>
-            <p>• 할 일 생성 : InputForm onSubmit으로 액션(CREATE) 발생</p>
-            <p>
-              • 할 일 체크 : onClick으로 액션(TOGGLE) 발생 후 체크 생성, 삭제
+            <p className="app-des">
+              할 일을 생성, 체크, 삭제 관리하여 사용할 수 있는 앱
             </p>
             <p>
-              • 할 일 삭제 : onRemove로 삭제 액션(REMOVE) 발생 후 filter로 반환
+              • 할 일 생성 : InputForm onSubmit으로 액션(CREATE) 발생 후 input
+              props 전달
             </p>
-            <p>• 남은 할 일 : Context로 done이 false인 값만 length로 표현</p>
-            <p>• memoization을 통해 불필요한 리렌더링 방지</p>
             <p>
-              • ContextAPI : state, dispatch를 컴포넌트에 전역적으로 공급, 사용
+              • 할 일 체크 : onClick으로 액션(TOGGLE) 발생 후 react-icon로 체크
+              표시 및 해제
             </p>
-            <a
-              className="btn"
-              href="https://github.com/pkwesst/todo-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              view more a project
-            </a>
+            <p>
+              • 할 일 삭제 : onRemove로 삭제 액션(REMOVE) 발생 후 filter로 요소
+              반환
+            </p>
+            <p>
+              • 남은 할 일 : Context API로 전달받은 state가 false인 값만
+              length로 표현
+            </p>
+            <p>
+              • 성능 최적화 : useMemo Hook의 memoization을 통해 불필요한
+              리렌더링 방지
+            </p>
+            <p>
+              • ContextAPI : state, dispatch를 통해 함수를 컴포넌트에 전역적으로
+              공급, 사용
+            </p>
+            <p className="tool">
+              • React, Styled-Component, Context API, Git, Github
+            </p>
+            <div className="btn-wrap">
+              <a
+                className="btn-project"
+                href="https://pkwesst.github.io/todo-app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                view more project
+              </a>
+              <a
+                className="btn-code"
+                href="https://github.com/pkwesst/todo-app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                view a source code
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -145,35 +208,54 @@ const ProjectStyle = styled.div`
 
   h2 {
     font-weight: 700;
-    margin-left: 180px;
+    margin-left: 200px;
     margin-bottom: 40px;
   }
 
   h3 {
     font-weight: 600;
+    margin-top: 20px;
   }
 
   .project {
     padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   img {
-    width: 600px;
-    height: 400px;
+    display: inline-block;
+    width: 40em;
+    height: 27em;
     border-radius: 5px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 
     :hover {
       transform: translate(-10px);
     }
+
+    @media screen and (max-width: 1200px) {
+      width: 70vw;
+      height: auto;
+    }
   }
 
-  .btn {
+  .btn-wrap {
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width: 1200px) {
+      justify-content: space-evenly;
+    }
+  }
+
+  .btn-code {
     display: inline-block;
     margin-top: 20px;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 10px 35px;
+    padding: 10px 30px;
     background-color: #000;
     color: #f9f8f8;
     border-radius: 5px;
@@ -182,39 +264,87 @@ const ProjectStyle = styled.div`
     font-weight: 700;
     text-align: center;
     line-height: 2.4rem;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.2rem;
+
+    :hover {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  .btn-project {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    color: #f9f8f8;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 2.4rem;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.2rem;
 
     :hover {
       background-color: #000;
-      opacity: 0.7;
+    }
+  }
+
+  .tool {
+    color: #858484;
+    font-weight: 600;
+    padding-top: 10px;
+  }
+
+  .project-des {
+    width: 30%;
+    margin: 0 60px;
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width: 1200px) {
+      width: 45em;
     }
   }
 
   .project-section-1 {
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
-  }
+    margin-bottom: 120px;
 
-  .project-des {
-    width: 35%;
-    margin-left: 40px;
-    display: flex;
-    flex-direction: column;
+    @media screen and (max-width: 1200px) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   .project-section-2 {
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
-  }
+    margin-bottom: 120px;
 
-  .app-des {
-    margin-bottom: 20px;
+    @media screen and (max-width: 1200px) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   .project-section-3 {
     display: flex;
     justify-content: center;
+    @media screen and (max-width: 1200px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .app-des {
+    margin-bottom: 20px;
   }
 `;
 
