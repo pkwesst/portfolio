@@ -17,6 +17,10 @@ const AboutMeStyle = styled.div`
   padding-left: 200px;
   padding-right: 200px;
   background-color: #f9f8f8;
+
+  @media screen and (max-width: 420px) {
+    padding: 0;
+  }
 `;
 
 export default AboutMe;

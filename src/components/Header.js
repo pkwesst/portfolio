@@ -32,6 +32,11 @@ const HeaderStyle = styled.header`
   align-items: center;
   z-index: 1;
 
+  @media screen and (max-width: 420px) {
+    font-size: 15px;
+    height: 70px;
+  }
+
   span {
     padding: 30px;
 

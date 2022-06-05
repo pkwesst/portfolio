@@ -210,6 +210,10 @@ const ProjectStyle = styled.div`
     font-weight: 700;
     margin-left: 200px;
     margin-bottom: 40px;
+    @media screen and (max-width: 420px) {
+      margin: 20px;
+      font-size: 20px;
+    }
   }
 
   h3 {
@@ -250,28 +254,6 @@ const ProjectStyle = styled.div`
     }
   }
 
-  .btn-code {
-    display: inline-block;
-    margin-top: 20px;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 10px 30px;
-    background-color: #000;
-    color: #f9f8f8;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 15px;
-    font-weight: 700;
-    text-align: center;
-    line-height: 2.4rem;
-    word-spacing: 0.1rem;
-    letter-spacing: 0.2rem;
-
-    :hover {
-      background-color: rgba(0, 0, 0, 0.5);
-    }
-  }
-
   .btn-project {
     display: inline-block;
     margin-top: 20px;
@@ -293,6 +275,41 @@ const ProjectStyle = styled.div`
     :hover {
       background-color: #000;
     }
+
+    @media screen and (max-width: 420px) {
+      font-size: 10px;
+      padding: 0;
+      line-height: 1rem;
+    }
+  }
+
+  .btn-code {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background-color: #000;
+    color: #f9f8f8;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 2.4rem;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.2rem;
+
+    :hover {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    @media screen and (max-width: 420px) {
+      font-size: 10px;
+      padding: 0;
+      line-height: 1rem;
+      margin-left: 1em;
+    }
   }
 
   .tool {
@@ -309,6 +326,10 @@ const ProjectStyle = styled.div`
 
     @media screen and (max-width: 1200px) {
       width: 45em;
+    }
+
+    @media screen and (max-width: 420px) {
+      width: 70%;
     }
   }
 

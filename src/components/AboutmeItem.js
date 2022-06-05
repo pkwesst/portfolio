@@ -17,48 +17,50 @@ import {
 import { BsFillBootstrapFill } from "react-icons/bs";
 const AboutMeItem = () => {
   return (
-    <AboutMeLayoutStyle id="3">
-      <h2>Experience</h2>
-      <div className="container">
-        <div className="item">
-          <div className="icon-js">
-            <SiJavascript />
+    <AboutMeLayoutStyle>
+      <div id="3">
+        <h2>Experience</h2>
+        <div className="container">
+          <div className="item">
+            <div className="icon-js">
+              <SiJavascript />
+            </div>
           </div>
-        </div>
-        <div className="item">
-          <div className="icon-github">
-            <FaGithubSquare />
+          <div className="item">
+            <div className="icon-github">
+              <FaGithubSquare />
+            </div>
           </div>
-        </div>
-        <div className="item">
-          <FaReact />
-        </div>
-        <div className="item">
-          <FaHtml5 />
-        </div>
-        <div className="item">
-          <SiCss3 />
-        </div>
-        <div className="item">
-          <BsFillBootstrapFill />
-        </div>
-        <div className="item">
-          <FaGitAlt />
-        </div>
-        <div className="item">
-          <SiPython />
-        </div>
-        <div className="item">
-          <SiJava />
-        </div>
-        <div className="item">
-          <SiFirebase />
-        </div>
-        <div className="item">
-          <DiGoogleCloudPlatform />
-        </div>
-        <div className="item">
-          <FaSass />
+          <div className="item">
+            <FaReact />
+          </div>
+          <div className="item">
+            <FaHtml5 />
+          </div>
+          <div className="item">
+            <SiCss3 />
+          </div>
+          <div className="item">
+            <BsFillBootstrapFill />
+          </div>
+          <div className="item">
+            <FaGitAlt />
+          </div>
+          <div className="item">
+            <SiPython />
+          </div>
+          <div className="item">
+            <SiJava />
+          </div>
+          <div className="item">
+            <SiFirebase />
+          </div>
+          <div className="item">
+            <DiGoogleCloudPlatform />
+          </div>
+          <div className="item">
+            <FaSass />
+          </div>
         </div>
       </div>
     </AboutMeLayoutStyle>
@@ -74,6 +76,13 @@ const AboutMeLayoutStyle = styled.div`
   h2 {
     font-weight: 700;
     padding-bottom: 60px;
+    @media screen and (max-width: 420px) {
+      margin: 20px;
+      font-size: 20px;
+      margin: 0;
+      padding-top: 100px;
+      padding-left: 20px;
+    }
   }
 
   .item {
@@ -84,6 +93,11 @@ const AboutMeLayoutStyle = styled.div`
     border-radius: 7px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
     font-size: 50px;
+
+    @media screen and (max-width: 420px) {
+      width: 60px;
+      height: 50px;
+    }
   }
 
   .container {
@@ -92,6 +106,11 @@ const AboutMeLayoutStyle = styled.div`
     gap: 50px 20px;
     place-items: center;
     justify-content: center;
+
+    @media screen and (max-width: 420px) {
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+    }
   }
 
   .aboutme-wrap {

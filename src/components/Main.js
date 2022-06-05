@@ -33,6 +33,10 @@ const MainStyle = styled.div`
     @media screen and (max-width: 1200px) {
       font-size: 120px;
     }
+
+    @media screen and (max-width: 420px) {
+      font-size: 50px;
+    }
   }
 
   .last-name {
@@ -46,6 +50,11 @@ const MainStyle = styled.div`
       top: 3em;
       left: 3em;
     }
+
+    @media screen and (max-width: 420px) {
+      top: 4em;
+      left: 2em;
+    }
   }
 
   .first-name {
@@ -58,6 +67,11 @@ const MainStyle = styled.div`
     @media screen and (max-width: 1200px) {
       top: 4.5em;
       left: 3em;
+    }
+
+    @media screen and (max-width: 420px) {
+      top: 6em;
+      left: 2em;
     }
   }
 `;

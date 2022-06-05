@@ -40,6 +40,11 @@ const FooterStyle = styled.footer`
   height: 90px;
   font-size: 23px;
 
+  @media screen and (max-width: 420px) {
+    font-size: 16px;
+    height: 70px;
+  }
+
   a {
     padding: 30px;
     color: #f9f8f8;
