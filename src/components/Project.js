@@ -280,7 +280,7 @@ const ProjectStyle = styled.div`
 
     @media screen and (max-width: 768px) {
       font-size: 10px;
-      padding: 3px;
+      padding: 10px 3px;
       line-height: 1.2em;
       word-spacing: 0;
     }
@@ -309,7 +309,7 @@ const ProjectStyle = styled.div`
 
     @media screen and (max-width: 768px) {
       font-size: 10px;
-      padding: 3px;
+      padding: 10px 3px;
       line-height: 1.2em;
       word-spacing: 0rem;
       line-height: 1.2em;
