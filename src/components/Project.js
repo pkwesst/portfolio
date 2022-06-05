@@ -211,7 +211,7 @@ const ProjectStyle = styled.div`
     margin-left: 200px;
     margin-bottom: 40px;
     @media screen and (max-width: 768px) {
-      margin: 20px;
+      margin: 0 20px;
       margin-bottom: 30px;
 
       font-size: 20px;

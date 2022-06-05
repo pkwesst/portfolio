@@ -52,8 +52,8 @@ const MainStyle = styled.div`
     }
 
     @media screen and (max-width: 768px) {
-      top: 5.5em;
-      left: 2.5em;
+      top: 5em;
+      left: 2em;
     }
   }
 
@@ -70,8 +70,8 @@ const MainStyle = styled.div`
     }
 
     @media screen and (max-width: 768px) {
-      top: 7em;
-      left: 2.5em;
+      top: 6.5em;
+      left: 2em;
     }
   }
 `;
