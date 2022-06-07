@@ -3,11 +3,11 @@ import styled from "styled-components";
 const Main = () => {
   return (
     <MainStyle>
-      <div className="black"></div>
-      <div className="name">
-        <div className="last-name">park</div>
-        <div className="first-name">seohyun</div>
-      </div>
+      <Black />
+      <Name>
+        <Lastname>park</Lastname>
+        <FirstName>seohyun</FirstName>
+      </Name>
     </MainStyle>
   );
 };
@@ -15,64 +15,60 @@ const Main = () => {
 const MainStyle = styled.div`
   background-color: #f9f8f8;
   text-transform: uppercase;
+  position: relative;
+`;
 
-  .black {
-    background-color: #000;
-    width: 50%;
-    height: 100vh;
+const Black = styled.div`
+  background-color: #000;
+  width: 50%;
+  height: 100vh;
+`;
+
+const Name = styled.div`
+  font-family: "Khula", sans-serif;
+  font-weight: 800;
+  font-size: 170px;
+  letter-spacing: -5px;
+  @media screen and (max-width: 1200px) {
+    font-size: 120px;
   }
-
-  .name {
-    display: flex-column;
-    font-family: "Khula", sans-serif;
-    font-weight: 800;
-    font-size: 170px;
-    letter-spacing: -5px;
-    display: flex;
-
-    @media screen and (max-width: 1200px) {
-      font-size: 120px;
-    }
-
-    @media screen and (max-width: 768px) {
-      font-size: 50px;
-    }
+  @media screen and (max-width: 768px) {
+    font-size: 50px;
   }
+`;
 
-  .last-name {
-    position: absolute;
-    top: 23%;
-    left: 32%;
-    mix-blend-mode: difference;
-    color: #fff;
-    z-index: 2;
-    @media screen and (max-width: 1200px) {
-      top: 3em;
-      left: 3em;
-    }
-
-    @media screen and (max-width: 768px) {
-      top: 5em;
-      left: 2em;
-    }
+const Lastname = styled.div`
+  mix-blend-mode: difference;
+  color: #fff;
+  z-index: 10;
+  position: absolute;
+  top: 25%;
+  left: 32%;
+  @media screen and (max-width: 1200px) {
+    top: 2.5em;
+    left: 3em;
   }
+  @media screen and (max-width: 768px) {
+    top: 5em;
+    left: 2em;
+  }
+`;
 
-  .first-name {
-    position: absolute;
-    mix-blend-mode: difference;
-    color: #fff;
-    top: 47%;
-    left: 32%;
-    z-index: 2;
-    @media screen and (max-width: 1200px) {
-      top: 4.5em;
-      left: 3em;
-    }
+const FirstName = styled.div`
+  mix-blend-mode: difference;
+  color: #fff;
+  z-index: 10;
+  position: absolute;
+  top: 45%;
+  left: 32%;
 
-    @media screen and (max-width: 768px) {
-      top: 6.5em;
-      left: 2em;
-    }
+  @media screen and (max-width: 1200px) {
+    top: 4em;
+    left: 3em;
+  }
+  @media screen and (max-width: 768px) {
+    top: 6.5em;
+    left: 2em;
   }
 `;
 
