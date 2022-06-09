@@ -24,6 +24,23 @@ const Black = styled.div`
   height: 100vh;
 `;
 
+const Lastname = styled.div`
+  mix-blend-mode: difference;
+  color: #fff;
+  z-index: 10;
+  position: absolute;
+  top: 25%;
+  left: 32%;
+  @media screen and (max-width: 1200px) {
+    top: 2.5rem;
+    left: 3rem;
+  }
+  @media screen and (max-width: 768px) {
+    top: 5rem;
+    left: 2rem;
+  }
+`;
+
 const Name = styled.div`
   font-family: "Khula", sans-serif;
   font-weight: 800;
@@ -37,23 +54,6 @@ const Name = styled.div`
   }
 `;
 
-const Lastname = styled.div`
-  mix-blend-mode: difference;
-  color: #fff;
-  z-index: 10;
-  position: absolute;
-  top: 25%;
-  left: 32%;
-  @media screen and (max-width: 1200px) {
-    top: 2.5em;
-    left: 3em;
-  }
-  @media screen and (max-width: 768px) {
-    top: 5em;
-    left: 2em;
-  }
-`;
-
 const FirstName = styled.div`
   mix-blend-mode: difference;
   color: #fff;
@@ -63,12 +63,12 @@ const FirstName = styled.div`
   left: 32%;
 
   @media screen and (max-width: 1200px) {
-    top: 4em;
-    left: 3em;
+    top: 4rem;
+    left: 3rem;
   }
   @media screen and (max-width: 768px) {
-    top: 6.5em;
-    left: 2em;
+    top: 6.5rem;
+    left: 2rem;
   }
 `;
 

@@ -64,7 +64,7 @@ const Project = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                view a source code
+                view source code
               </a>
             </div>
           </div>
@@ -120,7 +120,7 @@ const Project = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                view a source code
+                view source code
               </a>
             </div>
           </div>
@@ -184,7 +184,7 @@ const Project = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                view a source code
+                view source code
               </a>
             </div>
           </div>
@@ -261,7 +261,7 @@ const ProjectStyle = styled.div`
     margin-top: 20px;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 10px 30px;
+    padding: 15px 30px;
     background-color: rgba(0, 0, 0, 0.5);
 
     color: #f9f8f8;
@@ -270,7 +270,6 @@ const ProjectStyle = styled.div`
     font-size: 15px;
     font-weight: 700;
     text-align: center;
-    line-height: 2.4rem;
     word-spacing: 0.1rem;
     letter-spacing: 0.2rem;
 
@@ -291,7 +290,7 @@ const ProjectStyle = styled.div`
     margin-top: 20px;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 10px 30px;
+    padding: 15px 30px;
     background-color: #000;
     color: #f9f8f8;
     border-radius: 5px;
@@ -299,7 +298,6 @@ const ProjectStyle = styled.div`
     font-size: 15px;
     font-weight: 700;
     text-align: center;
-    line-height: 2.4rem;
     word-spacing: 0.1rem;
     letter-spacing: 0.2rem;
 
